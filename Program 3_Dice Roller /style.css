@@ -1,0 +1,68 @@
+#container {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+label {
+    font-size: 1.5rem;
+}
+
+input{
+    width: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #45a049;
+}
+button:active {
+    background-color: #3e8e41;
+}
+
+#diceResult {
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+#diceImage {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;  
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}

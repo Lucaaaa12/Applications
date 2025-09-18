@@ -1,0 +1,29 @@
+#count-label {
+    font-size: 10em;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+#button-container {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.buttons {
+    font-size: 1.5em;
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    cursor: pointer;
+    color: white;
+    background-color: #024994;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.buttons:hover {
+    background-color: #013366;
+    transform: scale(1.1);
+}
+
