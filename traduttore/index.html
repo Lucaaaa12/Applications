@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+ 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--serve per adattare la pagina allo schermo-->
+  
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css"><!--per importare il documento css-->
+  
+  <title>Traduttore</title>
+  
+</head>
+<body>
+
+  <div class="container">
+    <header class="panel"> <!--header serve per dare l'intestazione alla pagina-->
+      <h1>Traduttore</h1>
+      <img src="images/icon.png">
+    </header>
+
+    <main> <!--CONTENUTO PRINCIPALE CON DUE SEZIONE-->
+        
+      <!--SEZIONE DI TRADUZIONE-->
+      <section class="panel translation"><!--section è un tag container come div, peò serve per indicare unità funzionali-->
+        <div class="translation-flag"></div>
+        <div class="translation-result">
+          <p class="translation-text">Traduzione</p>
+        </div>
+      </section>
+      <!--SEZIONE DI CONTROLLO-->
+      <section class="panel controls">
+        <input class="text-input" type="text" placeholder="inserisci il testo da tradurre"> 
+        <button class="lang-button" title="en" data-lang="en">🇬🇧</button>
+        <button class="lang-button" title="fr" data-lang="fr">🇫🇷</button>
+        <button class="lang-button" title="es" data-lang="es">🇪🇸</button>
+       
+        <button class="reset-button">❌</button>
+      </section>
+    </main>
+  </div>
+
+    <script src="script.js"></script><!--per importare il documento javascript-->
+</body>
+</html>

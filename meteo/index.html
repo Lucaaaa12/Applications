@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="it" class="js-loading">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /><!--serve per adattare la pagina allo schermo-->
+
+  <title>Meteo | Coding Week</title>
+
+  <!-- Icon -->
+  <link rel="icon" href="http://[percorso]/icon.png" >
+  
+  <!-- Font  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+  <!-- Stile -->
+  <link rel="stylesheet" href="style.css"> <!--collegamento css*-->
+
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- Intestazione -->
+    <header class="panel">
+      <h1>Meteo</h1>
+      <img src="images/icon.png" alt="logo">
+    </header>
+
+    <!-- Contenuto principale -->
+    <main>
+      <!-- Pannello informazioni meteo -->
+      <section class="weather-info panel">
+        <div class="weather-location">Vediamo che tempo fa...</div>
+        <img src="" alt="" class="weather-icon">
+        <div class="weather-temperature"></div>
+      </section>
+
+      <!-- Pannello dei suggerimenti -->
+      <section class="suggestion panel"></section>
+    </main>
+  </div>
+
+  <!-- Javascript -->
+  <script src="suggestions.js"></script> 
+  <script src="script.js"></script>
+</body>
+
+
+</html>

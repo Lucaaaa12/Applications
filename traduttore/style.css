@@ -1,0 +1,86 @@
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 16px;
+  font-family: "Inter", sans-serif;
+  background-color: rgb(234 237 240);
+}
+
+h1 {
+	font-size: 20px;
+	color: white;
+  text-transform: uppercase;
+}
+
+input {
+  padding: 16px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none; /*per eliminare bordi di default*/
+}
+
+button {
+  padding: 8px 16px;
+  background-color: rgb(128 176 255);
+  font-size: 32px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;/*per lasciare spazio tra gli oggetti dell'intestazione*/
+  align-items: center; /*per spostare tutti gli oggetti dell'intestazione al centro */
+  margin-bottom: 16px; /*per lasciare spazio tra i pannelli*/
+}
+
+.container {
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.panel {
+  background-color: rgb(76 100 242);
+  padding: 16px;
+  border-radius: 16px;
+}
+
+.translation {  
+  background-color: white;
+  margin-bottom: 16px;
+}
+
+.translation-result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 150px;
+}
+
+.translation-text {
+  font-size: 20px;
+}
+
+.translation-flag {
+  position: absolute;/*serve per far si che la bandiera si possa sovrapporre */
+  font-size: 20px;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap; /*serve per mandare a capo le bandierine */
+  justify-content: center;
+  gap: 16px;
+}
+
+.text-input {
+  width: 100%;
+}
